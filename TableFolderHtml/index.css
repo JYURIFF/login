@@ -1,0 +1,106 @@
+*{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: NONE;
+
+
+}
+table,tr,th, td{
+
+	height: 1vm;
+}
+table{
+
+	width: 100%;
+	
+}
+th{
+
+	background-color: #bd959f;
+
+}
+
+td{
+	background-color: #d3b7be;
+
+}
+
+.time{
+
+	width: 5vh;
+	height: 3vm;
+}
+
+.vacant{
+
+	background-color: white;
+}
+h1 {
+	background-color: antiquewhite;
+}
+h2 {
+	background-color: antiquewhite;
+}
+header{
+            background-color: black;
+            height: fit-content;
+            padding: 0.5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            display: inline-block;
+            width: 50px;
+            height: auto;
+        }
+        button{
+            background-color:rgba(255,255,255,.7);
+            margin:5px;
+            cursor:pointer;
+        }
+        .home{
+            font-size:20px;
+            padding:10px 40px;
+        }
+        .coffee{
+            font-size:20px;
+            padding:10px 10px;
+        }
+        .mp3{
+            font-size:20px;
+            padding:10px 40px;
+        }
+        .mp4{
+            font-size:20px;
+            padding:10px 10px;
+        }
+        .table{
+            font-size:20px;
+            padding:10px 0px;
+        }
+        .yuri{
+            font-size:20px;
+            padding:10px 35px;
+        }
+        span{
+            color:white;
+            font-size:20px;
+            margin:10px;
+        }
+            button:hover{
+            color:white;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            margin-right: 10px;
+        }
+        header img {
+            display: inline-block;
+            width: 50px;
+            height: auto;
+        }

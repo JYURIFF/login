@@ -1,0 +1,117 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(90deg, #d1e7f6 50%, #f9f9f9 50%);
+            color: #333;
+            background-image:url('beuti2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position:center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:rgba(255,255,255,0.65);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #222;
+            color: #ff6f61;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 70%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        audio {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .lyrics {
+            text-align: center;
+            padding: 20px;
+            line-height: 1.6;
+            overflow: auto;
+        }
+        .lyrics p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        .lyrics p:nth-child(odd) {
+            background-color: #f0f0f0;
+        }
+        .highlighted {
+            background-color: #ffe08a;
+            font-weight: bold;
+        }
+        header{
+            background-color: black;
+            height: fit-content;
+            padding: 0.5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            display: inline-block;
+            width: 50px;
+            height: auto;
+        }
+        button{
+            background-color:rgba(255,255,255,.7);
+            margin:5px;
+            cursor:pointer;
+        }
+        .home{
+            font-size:20px;
+            padding:10px 40px;
+        }
+        .coffee{
+            font-size:20px;
+            padding:10px 10px;
+        }
+        .mp3{
+            font-size:20px;
+            padding:10px 40px;
+        }
+        .mp4{
+            font-size:20px;
+            padding:10px 10px;
+        }
+        .table{
+            font-size:20px;
+            padding:10px 0px;
+        }
+        .yuri{
+            font-size:20px;
+            padding:10px 35px;
+        }
+        span{
+            color:white;
+            font-size:20px;
+            margin:10px;
+        }
+            button:hover{
+            color:white;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            margin-right: 10px;
+        }
+        header img {
+            display: inline-block;
+            width: 50px;
+            height: auto;
+        }

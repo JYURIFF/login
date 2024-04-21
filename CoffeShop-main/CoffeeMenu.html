@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuri Coffee Shop Menu</title>
+    <link rel="icon" type="image/x-icon" href="../HomePage/yorha.jpg">
+    <style>
+        body {
+            font-family:Comic sans MS;
+            margin: 0;
+            padding: 0;
+            background: url('coffee.gif') center center fixed;
+            background-size: cover;
+        }
+        .top-bar {
+            background-color: rgba(34, 26, 21, 0.8); 
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            color: #fff;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+            color: #fff;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+        }
+        .coffee-container {
+            padding: 20px;
+            background-color: rgba(51, 42, 32, 0.6); 
+            border-radius: 10px;
+            width: 45%;
+            margin-top: 20px;
+        }
+        .coffee-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .coffee-item {
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: rgba(51, 42, 32, 0.8); 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .coffee-img {
+            max-width: 100px;
+            max-height: 100px;
+            margin-right: 10px;
+            float: left;
+        }
+        .coffee-description {
+            clear: both;
+            color: #fff;
+        }
+        .specialty-coffees {
+            float: right;
+        }
+        header{
+            background-color: black;
+            height: fit-content;
+            padding: 0.5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            display: inline-block;
+            width: 50px;
+            height: auto;
+        }
+        button{
+            background-color:rgba(255,255,255,.7);
+            margin:5px;
+            cursor:pointer;
+        }
+        .home{
+            font-size:20px;
+            padding:10px 40px;
+        }
+        .coffee{
+            font-size:20px;
+            padding:10px 10px;
+        }
+        .mp3{
+            font-size:20px;
+            padding:10px 40px;
+        }
+        .mp4{
+            font-size:20px;
+            padding:10px 10px;
+        }
+        .table{
+            font-size:20px;
+            padding:10px 0px;
+        }
+        .yuri{
+            font-size:20px;
+            padding:10px 35px;
+        }
+        span{
+            color:white;
+            font-size:20px;
+            margin:10px;
+        }
+            button:hover{
+            color:white;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            margin-right: 10px;
+        }
+        header img {
+            display: inline-block;
+            width: 50px;
+            height: auto;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="logo-container">
+        <img src="../HomePage/yorha.jpg"/>
+    </div>
+    <nav>
+        <a href="../HomePage/Home.html">
+            <button class="home">Home</button>
+        </a>
+        <a href="CoffeeMenu.html">
+            <button class="coffee">Coffee Shop</button>
+        </a>
+        <a href="../SongHtmlFinal/Audio.html">
+            <button class="mp3">Music</button>
+        </a>
+        <a href="../songMp4/MusicVid.html">
+            <button class="mp4">Music Video</button>
+        </a>
+        <a href="../TableFolderHtml/table.html">
+            <button class="table">Class Schedule</button>
+        </a>
+        <a href="../YuriFolder/Profile.html">
+            <button class="yuri">About Me</button>
+        </a>
+    </nav>
+</header>
+    <div class="top-bar">
+        <div class="container">
+            <h1>Leblanc Coffee Shop</h1>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="coffee-container regular-coffees">
+            <h2>Regular Coffees</h2>
+            <ul class="coffee-list">
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="black coffee.webp" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="blackcoffeewhite.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Black Coffee</h3>
+                        <p>Regular Black Coffee 20$ / Regular Black Coffee with cream 25$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="espressso shot.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="whiteexpresso.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Espresso Shot</h3>
+                        <p>Espresso Shot 30$ / Espresso with cream 35$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="americano.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="icedameriacano.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Coffee Americano</h3>
+                        <p>Coffee Americano 35$ / Coffee Americano with ice 40$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="cafe_au_lait-.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="iced_cafe_au_lait-.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Café au Lait</h3>
+                        <p>Café au Lait 20$ / Café au Lait with ice 25$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Cappuccino-.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="iced_Cappuccino.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Cappuccino</h3>
+                        <p>Cappuccino 45$ / Cappuccino with ice 50$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="lattee_hot_mocha.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="green_tea_lattee.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Latte</h3>
+                        <p>Latte Hot Mocha 35$ / Green Tea Latte 60$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Macchiato.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="Macchiato_caramel.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Macchiato</h3>
+                        <p>Macchiato 25$ / Macchiato with Caramel 30$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="mocha_coffee_smoothe.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="white_Mocha-.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Mocha</h3>
+                        <p>Mocha coffee smoothie 30$ / White Mocha 35$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="black_coffee_iced-.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="white_black_coffee_iced.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Iced Coffee</h3>
+                        <p>Iced Coffee 30$ / Iced Coffee with Cream 35$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="cold_brew-.png" alt="Coffee 1 with cream" class="coffee-img">
+                        <img src="cold_brew_milk-.png" alt="Coffee 1 without cream" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Cold Brew Coffee</h3>
+                        <p>Cold Brew Coffee 35$ / Cold Brew Coffee with Cream 40$</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="coffee-container specialty-coffees">
+            <h2>Specialty Coffees</h2>
+            <ul class="coffee-list">
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Affogato_chocolate-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Affogato_cream-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Affogato</h3>
+                        <p>Affogato 35$ / Affogato with cream 50$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Turkish_Coffee-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Turkish_Coffee_with_milk_cream-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Turkish Coffee</h3>
+                        <p>Turkish Coffee 35$ / Turkish Coffee with turkish delight and milk cream 50$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="irish_coffee-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="irish_coffee_snikers-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Irish Coffee</h3>
+                        <p>Irish Coffee 40$ / Irish Coffee Snickers 60$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Vietnamese_Egg_Coffee.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Vietnamese_Egg_Coffee_iced.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Vietnamese Egg Coffee</h3>
+                        <p>Vietnamese Egg Coffee 40$ / Vietnamese Egg Coffee iced 45$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="spanish_lattee-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Spanish_Latte_iced-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Spanish Latte</h3>
+                        <p>Spanish Latte 40$ / Spanish Latte iced 45$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Flat_White-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Flat_White_iced-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Flat White</h3>
+                        <p>Flat White 40$ / Flat White with ice 45$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Bulletproof_Coffee.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Bulletproof_Coffee_with_cream.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Bulletproof Coffee</h3>
+                        <p>Bulletproof Coffee 40$ / Bulletproof Coffee with cream 45$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Dalgona_Coffee-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Dalgona_Coffee_ube-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Dalgona Coffee</h3>
+                        <p>Dalgona Coffee 40$ / Dalgona Coffee with ube 55$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Japanese_Iced_Coffee-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Japanese_Iced_Coffee_macha-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Japanese Iced Coffee</h3>
+                        <p>Japanese Iced Coffee 40$ / Japanese Iced Macha Coffee 60$</p>
+                    </div>
+                </li>
+                <li class="coffee-item">
+                    <div class="coffee-imgs">
+                        <img src="Mexican_Café_de_Olla-.png" alt="Specialty Coffee 1 with milk" class="coffee-img">
+                        <img src="Mexican_Café_de_Olla_Traditionl-.png" alt="Specialty Coffee 1 without milk" class="coffee-img">
+                    </div>
+                    <div class="coffee-description">
+                        <h3>Mexican Café de Olla</h3>
+                        <p>Mexican Café de Olla 40$ / Traditional Mexican Café de Olla 55$</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
